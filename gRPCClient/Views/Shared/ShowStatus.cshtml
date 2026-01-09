@@ -10,7 +10,7 @@
         @foreach (var p in Model)
         {
             <tr>
-                <td>@p.Key</td>
+                <td>@(p.Key.Contains("_") ? p.Key.Substring(0, p.Key.IndexOf("_")) : p.Key)</td>
                 <td>@p.Value</td>
             </tr>
         }
