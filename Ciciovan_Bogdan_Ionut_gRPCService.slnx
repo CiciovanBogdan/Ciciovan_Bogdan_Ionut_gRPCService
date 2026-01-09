@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Ciciovan_Bogdan_Ionut_gRPCService/Ciciovan_Bogdan_Ionut_gRPCService.csproj" />
+  <Project Path="gRPCClient/gRPCClient.csproj" />
+</Solution>
